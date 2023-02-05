@@ -8,6 +8,7 @@ function Profile(props){
          Name: {props.name} {props.lastname}
     </h1>
     );
+    
 }
 
 // const Profile = () => {

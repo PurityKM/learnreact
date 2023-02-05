@@ -7,7 +7,8 @@ const displayMessage = () => {
 const Hello = () => {
   return (
     <h1>
-      {name} , {displayMessage()}
+      {" "}
+      {name}, {displayMessage()}{" "}
     </h1>
   );
 };

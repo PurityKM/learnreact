@@ -3,6 +3,15 @@ body {
     background-color: aquamarine;
 }
 
+.calculator {
+    background-color: blue;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    padding-right: 5px;
+}
+
 
 /* .home {
     display: flex;
