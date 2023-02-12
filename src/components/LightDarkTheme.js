@@ -14,7 +14,7 @@ const themes = {
 
 const ThemeContext = React.createContext();
 
-function LightDarkTheme() {
+const LightDarkTheme = () =>{
   const [theme, setTheme] = useState('light');
 
   return (
@@ -34,10 +34,10 @@ function Content() {
   const currentTheme = themes[theme];
 
   return (
-    <div style={{ backgroundColor: currentTheme.backgroundColor, color: currentTheme.color }}>
+    <body style={{ backgroundColor: currentTheme.backgroundColor, color: currentTheme.color }}>
       <h1>This is some content</h1>
       <p>It will be displayed in the selected theme</p>
-    </div>
+    </body>
   );
 }
 

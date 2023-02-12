@@ -2,13 +2,13 @@ import React from "react";
 
 const name = "Purity";
 const displayMessage = () => {
-  return "i need help!";
+  return "i need help!"();
 };
 const Hello = () => {
   return (
     <h1>
-      {" "}
-      {name}, {displayMessage()}{" "}
+      
+      {name}, {displayMessage()}
     </h1>
   );
 };

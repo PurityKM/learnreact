@@ -7,10 +7,6 @@ class Counter extends Component{
         this.state = {
             counter: 0,
         };
-        super();
-        this.state = {
-            counter: 10,
-        };
     }
 
     increment(){

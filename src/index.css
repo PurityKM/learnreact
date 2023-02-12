@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins&display=swap');
-body {
-    background-color: aquamarine;
-}
 
-.calculator {
+/* body {
+    background-color: aquamarine;
+} */
+
+
+/* .calculator {
     background-color: blue;
     display: block;
     align-items: center;
     justify-content: space-evenly;
     padding: 5px;
     padding-right: 5px;
-}
+} */
 
 
 /* .home {
