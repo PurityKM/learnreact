@@ -3,7 +3,8 @@ import React from "react";
 //import Navbar from "./Navbar";
 //import Home from "./Home";
 import "./index.css";
-import LightDarkTheme from "./components/LightDarkTheme"
+//import LightDarkTheme from "./components/LightDarkTheme"
+import Navbar from "./components/Navbar";
 // import Hello from "./components/Hello";
 // import Profile from "./components/Profile";
 // import Counter from "./components/Counter";
@@ -18,11 +19,12 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
      {/* <Profile name="Irungu" lastname="Purity" />
      <Profile name="Mike" lastname="Wayne" />
      <Profile name="Lucy" lastname="Njambi "/> */}
      {/* <Navbar /> */}
-     <LightDarkTheme />
+     {/* <LightDarkTheme /> */}
      {/* <Hello />
      <Profile />
      <Counter /> */}
